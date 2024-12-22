@@ -23,7 +23,8 @@ const NewsFeed = () => {
 
     useEffect(() => {
         fetchNews();
-    }, []);
+    }, [fetchNews]);
+    
 
     return (
         <div>
